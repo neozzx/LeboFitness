@@ -15,9 +15,9 @@
 		610EE64B207F982500DA1F22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610EE64A207F982500DA1F22 /* main.m */; };
 		610EE655207F982500DA1F22 /* LeboFitnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 610EE654207F982500DA1F22 /* LeboFitnessTests.m */; };
 		610EE660207F982500DA1F22 /* LeboFitnessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 610EE65F207F982500DA1F22 /* LeboFitnessUITests.m */; };
-		610EE670207F9A7400DA1F22 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 610EE66D207F9A7400DA1F22 /* 4.png */; };
-		610EE671207F9A7400DA1F22 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 610EE66E207F9A7400DA1F22 /* 5.png */; };
-		610EE672207F9A7400DA1F22 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 610EE66F207F9A7400DA1F22 /* 3.png */; };
+		61E6DF62208881DB008DF790 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DF5F208881DB008DF790 /* 5.png */; };
+		61E6DF63208881DB008DF790 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DF60208881DB008DF790 /* 4.png */; };
+		61E6DF64208881DB008DF790 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DF61208881DB008DF790 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +54,9 @@
 		610EE65B207F982500DA1F22 /* LeboFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeboFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		610EE65F207F982500DA1F22 /* LeboFitnessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeboFitnessUITests.m; sourceTree = "<group>"; };
 		610EE661207F982500DA1F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		610EE66D207F9A7400DA1F22 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		610EE66E207F9A7400DA1F22 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
-		610EE66F207F9A7400DA1F22 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		61E6DF5F208881DB008DF790 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		61E6DF60208881DB008DF790 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		61E6DF61208881DB008DF790 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +107,11 @@
 		610EE63A207F982500DA1F22 /* LeboFitness */ = {
 			isa = PBXGroup;
 			children = (
-				610EE66F207F9A7400DA1F22 /* 3.png */,
-				610EE66D207F9A7400DA1F22 /* 4.png */,
-				610EE66E207F9A7400DA1F22 /* 5.png */,
 				610EE63B207F982500DA1F22 /* AppDelegate.h */,
 				610EE63C207F982500DA1F22 /* AppDelegate.m */,
+				61E6DF61208881DB008DF790 /* 3.png */,
+				61E6DF60208881DB008DF790 /* 4.png */,
+				61E6DF5F208881DB008DF790 /* 5.png */,
 				610EE63E207F982500DA1F22 /* ViewController.h */,
 				610EE63F207F982500DA1F22 /* ViewController.m */,
 				610EE641207F982500DA1F22 /* Main.storyboard */,
@@ -247,10 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610EE670207F9A7400DA1F22 /* 4.png in Resources */,
-				610EE671207F9A7400DA1F22 /* 5.png in Resources */,
 				610EE648207F982500DA1F22 /* LaunchScreen.storyboard in Resources */,
-				610EE672207F9A7400DA1F22 /* 3.png in Resources */,
+				61E6DF63208881DB008DF790 /* 4.png in Resources */,
+				61E6DF62208881DB008DF790 /* 5.png in Resources */,
+				61E6DF64208881DB008DF790 /* 3.png in Resources */,
 				610EE645207F982500DA1F22 /* Assets.xcassets in Resources */,
 				610EE643207F982500DA1F22 /* Main.storyboard in Resources */,
 			);
